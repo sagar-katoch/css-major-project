@@ -27,6 +27,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 .music-player {
@@ -166,4 +167,43 @@ margin-right: 1rem;
     .hide{
         display: none;
     }
+}
+.card{
+   background-color:#232323;
+   width: 150px;
+   border-radius: 0.5rem;
+   padding: 1rem;
+   margin-left: 1.5rem;
+   margin-top: 1rem;
+}
+.card-container{
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.card-image{
+ border-radius: 0.5rem;
+
+    width: 100%;
+}
+.card-title{
+    font-weight: 700;
+}
+.card-info{
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+.footer{
+    height: 300px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+   
+
 }
