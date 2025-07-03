@@ -286,3 +286,33 @@ align-items: center;
     border-radius: 50%;
     margin-top: -6px;
 }
+.album-image img{
+    object-fit: cover;
+    height: 3.5rem;
+   margin-top: 1rem;
+   margin-right: 1rem;
+}
+.album{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.music-name{
+    font-size: 0.75rem;
+    font-weight: bolder;
+
+
+}
+.artist-name{
+    font-size: 0.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+ 
+}
+.album-artist{
+    padding: 1rem;
+}
+.album-icons i{
+    margin-left: 1.2rem;
+}
