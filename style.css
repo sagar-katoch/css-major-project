@@ -94,35 +94,42 @@ a {
     width: 1.25rem;
 
 }
-.icons{
+
+.icons {
     font-size: 1.25rem;
-    
+
     display: flex;
 }
-.icons i{
-opacity: 0.7;
+
+.icons i {
+    opacity: 0.7;
     margin-right: 1rem;
 }
-.icons i:hover{
+
+.icons i:hover {
     opacity: 1;
 }
-.box{
+
+.box {
     height: 8rem;
     background-color: #232323;
     border-radius: 0.75rem;
-    margin: 0.75rem 0 1.75rem 0 ;
+    margin: 0.75rem 0 1.75rem 0;
     padding: 0.75rem 1rem;
 
 }
-.box-p1{
+
+.box-p1 {
     font-size: 1rem;
     font-weight: 500;
 }
-.box-p2{
+
+.box-p2 {
     font-size: 0.85rem;
     opacity: 0.9;
 }
-.badge{
+
+.badge {
     background-color: white;
     border: none;
     border-radius: 100px;
@@ -134,76 +141,89 @@ opacity: 0.7;
     cursor: pointer;
 
 }
-.dark-badge{
+
+.dark-badge {
     background-color: black;
     color: white;
 }
-.sticky-nav{
+
+.sticky-nav {
     position: sticky;
+    z-index: 1;
     top: 0;
     background-color: #121212;
     display: flex;
     justify-content: space-between;
-align-items: center;
-padding: 1rem 0 1rem 1rem;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
 }
+
 .sticky-nav-icons {
- 
-margin-left: 0.75rem;
+
+    margin-left: 0.75rem;
 
 }
-.sticky-nav-options{
+
+.sticky-nav-options {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nav-item{
 
-margin-right: 1rem;
+.nav-item {
+
+    margin-right: 1rem;
 
 }
 
 @media (max-width:1000px) {
-    .hide{
+    .hide {
         display: none;
     }
 }
-.card{
-   background-color:#232323;
-   width: 150px;
-   border-radius: 0.5rem;
-   padding: 1rem;
-   margin-left: 1.5rem;
-   margin-top: 1rem;
+
+.card {
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
 }
-.card-container{
+
+.card-container {
     display: flex;
-   flex-wrap: wrap;
-   
+    flex-wrap: wrap;
+
 }
-.card-image{
- border-radius: 0.5rem;
+
+.card-image {
+    border-radius: 0.5rem;
 
     width: 100%;
 }
-.card-title{
+
+.card-title {
     font-weight: 700;
 }
-.card-info{
+
+.card-info {
     font-size: 0.85rem;
     opacity: 0.8;
 }
-.footer{
+
+.footer {
     height: 300px;
     display: flex;
-     align-items: center;
+    align-items: center;
     justify-content: center;
 }
-.line{
+
+.line {
     width: 90%;
-    height: 30%;
+    height: 50%;
     border-top: 1px solid white;
     opacity: 0.4;
-   
+
 
 }
