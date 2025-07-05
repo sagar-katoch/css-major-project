@@ -17,11 +17,11 @@ A fully responsive Spotify-inspired music player built with HTML, CSS, and JavaS
 
 ## 🎯 Demo
 
-![https://funny-chaja-1565c0.netlify.app/](https://funny-chaja-1565c0.netlify.app/)
+spotify clone live preview![https://funny-chaja-1565c0.netlify.app/](https://funny-chaja-1565c0.netlify.app/)
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://funny-chaja-1565c0.netlify.app/) *(Replace with your GitHub Pages URL)*
+[View Live Demo](https://funny-chaja-1565c0.netlify.app/) 
 
 ## 📱 Responsive Breakpoints
 ![alt text](image-1.png)
