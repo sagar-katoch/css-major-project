@@ -176,11 +176,6 @@ a {
 
 }
 
-@media (max-width:1000px) {
-    .hide {
-        display: none;
-    }
-}
 
 .card {
     background-color: #232323;
@@ -315,4 +310,268 @@ align-items: center;
 }
 .album-icons i{
     margin-left: 1.2rem;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 2rem;
+}
+
+@media (max-width:1000px){
+
+.side-bar{
+    display: none;
+}
+
+.sticky-nav{
+    width: 100%;
+}
+.card{
+    width: 100%;
+}
+.player-controls img{
+    height: 10px;
+}
+.player-controls{
+    width: 40%;
+
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.album-image img{
+    height: 15px;
+}
+.album-artist p{
+    margin: 0;
+
+}
+.album-artist{
+    padding: 0;
+}
+.album-icons i{
+    margin: 0;
+}
+.main{
+    padding: 0;
+}
+}
+
+@media (max-width: 1200px) {
+    .music-player {
+        height: 68px;
+    }
+    
+    .album-image img {
+        height: 3.2rem;
+    }
+    
+    .player-controls img {
+        margin-left: 1.5rem;
+    }
+    
+    .controls {
+        gap: 1.8rem;
+    }
+}
+
+/* Medium tablets */
+@media (max-width: 1000px) {
+    .music-player {
+        height: 65px;
+        padding: 0 0.5rem;
+    }
+    
+    .album-image img {
+        height: 3rem;
+    }
+    
+    .player-controls img {
+        height: 0.9rem;
+        margin-left: 1.5rem;
+    }
+    
+    .controls {
+        gap: 1.5rem;
+    }
+    
+    .controls input[type="range"] {
+        width: 60px;
+    }
+}
+
+/* Small tablets */
+@media (max-width: 768px) {
+    .music-player {
+        height: 60px;
+        padding: 0 0.5rem;
+    }
+    
+    .album {
+        width: 30%;
+    }
+    
+    .player {
+        width: 45%;
+    }
+    
+    .controls {
+        width: 25%;
+        gap: 1rem;
+    }
+    
+    .album-image img {
+        height: 2.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .album-artist {
+        padding: 0.5rem;
+    }
+    
+    .music-name {
+        font-size: 0.65rem;
+    }
+    
+    .artist-name {
+        font-size: 0.45rem;
+    }
+    
+    .album-icons i {
+        margin-left: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .player-controls img {
+        height: 0.8rem;
+        margin-left: 1rem;
+    }
+    
+    .progress-bar {
+        width: 80%;
+    }
+    
+    .controls i {
+        font-size: 0.9rem;
+    }
+    
+    .controls input[type="range"] {
+        width: 50px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .music-player {
+        height: 55px;
+        padding: 0 0.25rem;
+    }
+    
+    .album {
+        width: 35%;
+    }
+    
+    .player {
+        width: 40%;
+    }
+    
+    .controls {
+        width: 25%;
+        gap: 0.5rem;
+    }
+    
+    .album-image img {
+        height: 2rem;
+        margin-top: 0.25rem;
+        margin-right: 0.5rem;
+    }
+    
+    .album-artist {
+        padding: 0.25rem;
+    }
+    
+    .music-name {
+        font-size: 0.6rem;
+        margin: 0;
+    }
+    
+    .artist-name {
+        font-size: 0.4rem;
+        margin: 0;
+    }
+    
+    .album-icons i {
+        margin-left: 0.25rem;
+        font-size: 0.8rem;
+    }
+    
+    .player-controls {
+        margin-top: 0.25rem;
+    }
+    
+    .player-controls img {
+        height: 0.7rem;
+        margin-left: 0.5rem;
+    }
+    
+    .playback-bar {
+        margin-top: 0.25rem;
+    }
+    
+    .progress-bar {
+        width: 90%;
+    }
+    
+    .curr-time,
+    .total-time {
+        font-size: 0.6rem;
+    }
+    
+    .controls i {
+        font-size: 0.8rem;
+    }
+    
+    .controls input[type="range"] {
+        width: 40px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 360px) {
+    .music-player {
+        height: 50px;
+    }
+    
+    .album-image img {
+        height: 1.8rem;
+    }
+    
+    .music-name {
+        font-size: 0.55rem;
+    }
+    
+    .artist-name {
+        font-size: 0.35rem;
+    }
+    
+    .player-controls img {
+        height: 0.6rem;
+        margin-left: 0.25rem;
+    }
+    
+    .controls {
+        gap: 0.25rem;
+    }
+    
+    .controls i {
+        font-size: 0.7rem;
+    }
+    
+    .controls input[type="range"] {
+        width: 35px;
+    }
 }
