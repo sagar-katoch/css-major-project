@@ -1,6 +1,6 @@
 # 🎵 Spotify Clone - Responsive Music Player
 
-A fully responsive Spotify-inspired music player built with HTML, CSS, and JavaScript. This project recreates the modern Spotify interface with a focus on responsive design and user experience.
+A fully responsive Spotify-inspired music player built with HTML and CSS. This project recreates the modern Spotify interface with a focus on responsive design and user experience.
 
 ![alt text](image.png)
 
