@@ -359,6 +359,9 @@ align-items: center;
 .main{
     padding: 0;
 }
+.main-content{
+    border-radius: 0;
+}
 }
 
 @media (max-width: 1200px) {
