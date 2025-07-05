@@ -15,9 +15,9 @@ A fully responsive Spotify-inspired music player built with HTML, CSS, and JavaS
 - **Font Awesome Icons**: Professional iconography throughout
 - **Mobile-First Approach**: Optimized for mobile devices
 
-## 🎯 Demo
 
-spotify clone live preview![https://funny-chaja-1565c0.netlify.app/](https://funny-chaja-1565c0.netlify.app/)
+
+
 
 ## 🚀 Live Demo
 
