@@ -24,7 +24,7 @@ A fully responsive Spotify-inspired music player built with HTML, CSS, and JavaS
 [View Live Demo](https://funny-chaja-1565c0.netlify.app/) 
 
 ## 📱 Responsive Breakpoints
-![alt text](image-1.png)
+
 - **Desktop**: 1200px and above
 - **Large Tablets**: 1000px - 1199px
 - **Small Tablets**: 768px - 999px
